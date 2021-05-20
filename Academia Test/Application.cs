@@ -46,7 +46,7 @@ namespace Academia_Test
                 if(test.NumberQuestions() > 0)
                     ShowResults();
 
-                Console.Write("Desea hacer otro test?: ");
+                Console.Write("Desea hacer otro test(si/no)?: ");
                 seguir = Console.ReadLine().ToLower().Trim();
 
             }
