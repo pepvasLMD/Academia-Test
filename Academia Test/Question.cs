@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Academia_Test
 {
-    class Question
+    public class Question
     {
         private string description;
         private int value;

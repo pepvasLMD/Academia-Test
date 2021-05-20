@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Academia_Test
 {
-    interface AnswerType
+    public interface AnswerType
     {
         public bool CheckAnswer(String answer);
     }

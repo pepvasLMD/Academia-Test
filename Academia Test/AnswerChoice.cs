@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Academia_Test
 {
-    class AnswerChoice : AnswerType
+    public class AnswerChoice : AnswerType
     {
         private List<string> choices;
         private string rightChoice;
