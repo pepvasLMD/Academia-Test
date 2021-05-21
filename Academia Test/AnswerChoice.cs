@@ -20,7 +20,7 @@ namespace Academia_Test
         {
             foreach(string choice in choices)
             {
-                if (choice.ToLower().Trim().Equals(rightChoice.ToLower().Trim()))
+                if (choice.ToLower().Trim().Equals(answer.ToLower().Trim()))
                     return true;
             }
 

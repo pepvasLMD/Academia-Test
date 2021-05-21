@@ -9,8 +9,6 @@ namespace Pruebas_Unitarias
     [TestClass]
     public class QuestionTest
     {
-        
-
         [TestMethod]
         public void testGoodAnswer()
         {
@@ -37,8 +35,10 @@ namespace Pruebas_Unitarias
             AnswerChoice answerChoice = new AnswerChoice(choices, rightAnswer);
             Question objQuestion = new Question(question, value, answerChoice);
 
-            objQuestion.AnswerUser = "Manuel";
+            objQuestion.AnswerUser = "MAnuel   ";
             Assert.AreEqual(false, objQuestion.GoodAnswer());
         }
+
+        
     }
 }

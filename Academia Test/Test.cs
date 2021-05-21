@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Academia_Test
 {
-    class Test
+    public class Test
     {
         private List<Question> questions;
 
